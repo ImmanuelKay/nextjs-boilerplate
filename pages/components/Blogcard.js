@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from './styles/BlogCard.module.css'
+import styles from '../styles/BlogCard.module.css'
 
 export default function BlogPost({title, coverPhoto,slug}){
     return(
